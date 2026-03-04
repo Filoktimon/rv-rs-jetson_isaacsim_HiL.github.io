@@ -1,8 +1,8 @@
 # Site settings
 title: "Jetson & Isaac Sim HiL Series"
 description: "A technical guide to Hardware-in-the-Loop robotics."
-baseurl: "/rv-rs-jetson-isaacsim-HiL" # the subpath of your site, e.g. /blog
-url: "https://Filoktimon.github.io"
+baseurl: "/rv-rs-jetson-isaacsim_HiL" # the subpath of your site, e.g. /blog
+url: "https://filoktimon.github.io"
 
 # Author Sidebar Info
 author:
