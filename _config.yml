@@ -25,3 +25,7 @@ header_pages:
   - part2-docker.md
   - part3-networking.md
   - part4-execution.md
+
+# SASS settings
+sass:
+  style: compressed
