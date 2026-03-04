@@ -4,12 +4,12 @@ description: "A technical guide to Hardware-in-the-Loop robotics."
 baseurl: "/rv-rs-jetson_isaacsim_HiL.github.io" 
 url: "https://Filoktimon.github.io"
 
-# Author Sidebar Info
-author:
-  name: "Filoktimon"
-  bio: "Robotics Engineer & AI Developer specializing in NVIDIA Isaac ecosystem and edge deployment."
-  github: Filoktimon
-  linkedin: https://www.linkedin.com/in/filoktimon-repoulias-phd/
+# Minima Theme Footer Fix
+author: "Filoktimon"
+email: "your-email@example.com"
+twitter_username: 
+github_username:  Filoktimon
+linkedin_school_name: "Filoktimon Repoulias"
 
 # Build settings
 theme: minima
