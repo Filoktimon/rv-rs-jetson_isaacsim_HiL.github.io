@@ -1,4 +1,4 @@
-# Jetson & Isaac Sim HiL Series
+# NVIDIA Jetson & Isaac Sim HiL Series
 
 **[Visit the Technical Guide](https://filoktimon.github.io/rv-rs-jetson-isaacsim-hil/)**
 
