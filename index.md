@@ -13,7 +13,7 @@ The following diagram illustrates the data flow between the virtual world and th
 
 
 ### **Series Roadmap**
-1. [**The Foundation**](./part1-hardware): NVMe SSDs and Memory Optimization.
-2. [**The Environment**](./part2-docker): Docker, NVIDIA Runtime, and the CDI Wall.
-3. [**The Connection**](./part3-networking): Networking, DDS, and Time Sync.
-4. [**The Action**](./part4-execution): NITROS Acceleration and Performance Tuning.
+1. [**The Foundation**]({{ site.baseurl }}/part1-hardware.html): NVMe SSDs and Memory Optimization.
+2. [**The Environment**]({{ site.baseurl }}/part2-docker.html): Docker, NVIDIA Runtime, and the CDI Wall.
+3. [**The Connection**]({{ site.baseurl }}/part3-networking.html): Networking, DDS, and Time Sync.
+4. [**The Action**]({{ site.baseurl }}/part4-execution.html): NITROS Acceleration and Performance Tuning.
