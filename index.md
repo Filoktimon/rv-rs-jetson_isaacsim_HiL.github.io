@@ -3,7 +3,7 @@ layout: home
 title: Project Overview
 ---
 
-# Mastering HiL with NVIDIA Jetson & Isaac Sim
+# Mastering HiL with NVIDIA Jetson & Isaac Sim 
 
 This series explores the integration of the **NVIDIA Jetson Orin Nano** with **NVIDIA Isaac Sim** to create a high-fidelity Hardware-in-the-Loop (HiL) testbed.
 
