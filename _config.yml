@@ -1,7 +1,7 @@
 # Site settings
 title: "Jetson & Isaac Sim HiL Series"
 description: "A technical guide to Hardware-in-the-Loop robotics."
-baseurl: "/rv-rs-jetson_isaacsim_HiL.github.io" 
+baseurl: "/rv-rs-jetson-isaacsim-hil" 
 url: "https://Filoktimon.github.io"
 
 # Minima Social Settings
