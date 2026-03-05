@@ -28,25 +28,24 @@ The Jetson Orin Nano has 8GB of physical RAM shared between the CPU and GPU. Run
 * **Physical Swap:** Create an **8GB Swap file** on your fast NVMe SSD. This acts as "emergency RAM," allowing the system to offload background tasks and keep the physical 8GB free for high-performance GPU tasks.
 
 ---
-
 ### Implementation: Storage and Memory Setup
 
-To prepare your Jetson, run the following commands to disable ZRAM and set up your physical swap:
+To prepare your Jetson, run the following commands.
 
+**1. Disable NVIDIA's default ZRAM and reboot:**
 ```bash
-// 1. Disable NVIDIA's default ZRAM
 sudo systemctl disable nvzramconfig
 sudo reboot
 
-// 2. Create a physical 8GB Swap on the SSD
+**2. Create a physical 8GB Swap file on the NVMe SSD:**
+```bash
 sudo fallocate -l 8G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 
-// 3. Make it permanent in /etc/fstab
+**3. Make the swap permanent by adding it to /etc/fstab:**
+```bash
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-
-
 
 
