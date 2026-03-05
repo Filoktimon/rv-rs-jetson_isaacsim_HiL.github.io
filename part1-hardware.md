@@ -30,20 +30,22 @@ The Jetson Orin Nano has 8GB of physical RAM shared between the CPU and GPU. Run
 ---
 
 ### Implementation: Storage and Memory Setup
+
 To prepare your Jetson, run the following commands to disable ZRAM and set up your physical swap:
 
 ```bash
-# Disable NVIDIA's default ZRAM
+# 1. Disable NVIDIA's default ZRAM
 sudo systemctl disable nvzramconfig
 sudo reboot
 
-# Create a physical 8GB Swap on the SSD
+# 2. Create a physical 8GB Swap on the SSD
 sudo fallocate -l 8G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo swapon /swapfile
 
-# Make it permanent in /etc/fstab
+# 3. Make it permanent in /etc/fstab
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+
 
 
